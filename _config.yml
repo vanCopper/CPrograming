@@ -10,6 +10,7 @@ url:          /CPrograming
 
 permalink:   /:categories/:title/
 markdown:    maruku
+markdown_ext:  markdown,mkd,mkdn,md
 highlighter: pygments
 sass:
   sass_dir: _sass
