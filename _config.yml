@@ -9,8 +9,8 @@ url:          /CPrograming
 # Jekyll configuration
 
 permalink:   /:categories/:title/
-markdown:    maruku
-markdown_ext:  markdown,mkd,mkdn,md
+markdown:    kramdown
+#markdown_ext:  markdown,mkd,mkdn,md
 highlighter: pygments
 sass:
   sass_dir: _sass
@@ -18,16 +18,17 @@ sass:
 gems:
   - jekyll-sitemap
 
-maruku:
-  use_tex:    false
-  use_divs:   false
+# maruku:
+#   use_tex:    false
+#   use_divs:   false
 
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  use_coderay: true
+  fenced_code_blocks: true
 
 
 # Site owner
