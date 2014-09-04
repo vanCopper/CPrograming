@@ -9,13 +9,17 @@ url:          /CPrograming
 # Jekyll configuration
 
 permalink:   /:categories/:title/
-markdown:    kramdown
+markdown:    maruku
 highlighter: pygments
 sass:
   sass_dir: _sass
   style: compressed
 gems:
   - jekyll-sitemap
+
+maruku:
+  use_tex:    false
+  use_divs:   false
 
 kramdown:
   auto_ids: true
