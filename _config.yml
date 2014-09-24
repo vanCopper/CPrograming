@@ -2,7 +2,7 @@
 
 title:            CPrograming
 locale:           en_US
-url:          /CPrograming
+url:              ""
 #url:              http://localhost:4000
 
 
@@ -10,8 +10,9 @@ url:          /CPrograming
 
 permalink:   /:categories/:title/
 markdown:    kramdown
-#markdown_ext:  markdown,mkd,mkdn,md
-highlighter: pygments
+markdown_ext:  markdown,mkd,mkdn,md
+#highlighter: pygments
+
 sass:
   sass_dir: _sass
   style: compressed
@@ -21,15 +22,6 @@ gems:
 # maruku:
 #   use_tex:    false
 #   use_divs:   false
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: true
-  fenced_code_blocks: true
-
 
 # Site owner
 owner:
